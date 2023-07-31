@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5799282A745DD400E29790 /* fika_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799272A745DD400E29790 /* fika_iOSApp.swift */; };
+		6E57992A2A745DD400E29790 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799292A745DD400E29790 /* MainView.swift */; };
+		6E57992C2A745DD500E29790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E57992B2A745DD500E29790 /* Assets.xcassets */; };
+		6E57992F2A745DD500E29790 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E57992E2A745DD500E29790 /* Preview Assets.xcassets */; };
+		6E5799392A745DD600E29790 /* fika_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799382A745DD600E29790 /* fika_iOSTests.swift */; };
+		6E5799432A745DD600E29790 /* fika_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799422A745DD600E29790 /* fika_iOSUITests.swift */; };
+		6E5799452A745DD600E29790 /* fika_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799442A745DD600E29790 /* fika_iOSUITestsLaunchTests.swift */; };
+		6E5799552A745FA100E29790 /* MainViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799542A745FA100E29790 /* MainViewViewModel.swift */; };
+		6E5799572A745FB200E29790 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799562A745FB200E29790 /* LoginView.swift */; };
+		6E5799592A745FBF00E29790 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5799582A745FBF00E29790 /* LoginViewViewModel.swift */; };
+		6E57995B2A74778A00E29790 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57995A2A74778A00E29790 /* HeaderView.swift */; };
+		6E57995D2A7477F800E29790 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57995C2A7477F800E29790 /* BannerView.swift */; };
+		6E57995F2A74926300E29790 /* MatchScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E57995E2A74926300E29790 /* MatchScheduleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E5799352A745DD600E29790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E57991C2A745DD400E29790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5799232A745DD400E29790;
+			remoteInfo = fika_iOS;
+		};
+		6E57993F2A745DD600E29790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E57991C2A745DD400E29790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E5799232A745DD400E29790;
+			remoteInfo = fika_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E5799242A745DD400E29790 /* fika_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fika_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5799272A745DD400E29790 /* fika_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fika_iOSApp.swift; sourceTree = "<group>"; };
+		6E5799292A745DD400E29790 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6E57992B2A745DD500E29790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E57992E2A745DD500E29790 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E5799342A745DD600E29790 /* fika_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fika_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5799382A745DD600E29790 /* fika_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fika_iOSTests.swift; sourceTree = "<group>"; };
+		6E57993E2A745DD600E29790 /* fika_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fika_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5799422A745DD600E29790 /* fika_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fika_iOSUITests.swift; sourceTree = "<group>"; };
+		6E5799442A745DD600E29790 /* fika_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fika_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E5799542A745FA100E29790 /* MainViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainViewViewModel.swift; path = ../../../../../MainViewViewModel.swift; sourceTree = "<group>"; };
+		6E5799562A745FB200E29790 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6E5799582A745FBF00E29790 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
+		6E57995A2A74778A00E29790 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		6E57995C2A7477F800E29790 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		6E57995E2A74926300E29790 /* MatchScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchScheduleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5799212A745DD400E29790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5799312A745DD600E29790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57993B2A745DD600E29790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E57991B2A745DD400E29790 = {
+			isa = PBXGroup;
+			children = (
+				6E5799262A745DD400E29790 /* fika_iOS */,
+				6E5799372A745DD600E29790 /* fika_iOSTests */,
+				6E5799412A745DD600E29790 /* fika_iOSUITests */,
+				6E5799252A745DD400E29790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5799252A745DD400E29790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5799242A745DD400E29790 /* fika_iOS.app */,
+				6E5799342A745DD600E29790 /* fika_iOSTests.xctest */,
+				6E57993E2A745DD600E29790 /* fika_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5799262A745DD400E29790 /* fika_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E5799512A745EF000E29790 /* Other */,
+				6E5799532A745F5300E29790 /* ViewModels */,
+				6E5799522A745F4600E29790 /* Views */,
+				6E57992B2A745DD500E29790 /* Assets.xcassets */,
+				6E57992D2A745DD500E29790 /* Preview Content */,
+			);
+			path = fika_iOS;
+			sourceTree = "<group>";
+		};
+		6E57992D2A745DD500E29790 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E57992E2A745DD500E29790 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E5799372A745DD600E29790 /* fika_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5799382A745DD600E29790 /* fika_iOSTests.swift */,
+			);
+			path = fika_iOSTests;
+			sourceTree = "<group>";
+		};
+		6E5799412A745DD600E29790 /* fika_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E5799422A745DD600E29790 /* fika_iOSUITests.swift */,
+				6E5799442A745DD600E29790 /* fika_iOSUITestsLaunchTests.swift */,
+			);
+			path = fika_iOSUITests;
+			sourceTree = "<group>";
+		};
+		6E5799512A745EF000E29790 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6E5799272A745DD400E29790 /* fika_iOSApp.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6E5799522A745F4600E29790 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E5799292A745DD400E29790 /* MainView.swift */,
+				6E5799562A745FB200E29790 /* LoginView.swift */,
+				6E57995A2A74778A00E29790 /* HeaderView.swift */,
+				6E57995C2A7477F800E29790 /* BannerView.swift */,
+				6E57995E2A74926300E29790 /* MatchScheduleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6E5799532A745F5300E29790 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6E5799542A745FA100E29790 /* MainViewViewModel.swift */,
+				6E5799582A745FBF00E29790 /* LoginViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5799232A745DD400E29790 /* fika_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5799482A745DD600E29790 /* Build configuration list for PBXNativeTarget "fika_iOS" */;
+			buildPhases = (
+				6E5799202A745DD400E29790 /* Sources */,
+				6E5799212A745DD400E29790 /* Frameworks */,
+				6E5799222A745DD400E29790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fika_iOS;
+			productName = fika_iOS;
+			productReference = 6E5799242A745DD400E29790 /* fika_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5799332A745DD600E29790 /* fika_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E57994B2A745DD600E29790 /* Build configuration list for PBXNativeTarget "fika_iOSTests" */;
+			buildPhases = (
+				6E5799302A745DD600E29790 /* Sources */,
+				6E5799312A745DD600E29790 /* Frameworks */,
+				6E5799322A745DD600E29790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5799362A745DD600E29790 /* PBXTargetDependency */,
+			);
+			name = fika_iOSTests;
+			productName = fika_iOSTests;
+			productReference = 6E5799342A745DD600E29790 /* fika_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E57993D2A745DD600E29790 /* fika_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E57994E2A745DD600E29790 /* Build configuration list for PBXNativeTarget "fika_iOSUITests" */;
+			buildPhases = (
+				6E57993A2A745DD600E29790 /* Sources */,
+				6E57993B2A745DD600E29790 /* Frameworks */,
+				6E57993C2A745DD600E29790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E5799402A745DD600E29790 /* PBXTargetDependency */,
+			);
+			name = fika_iOSUITests;
+			productName = fika_iOSUITests;
+			productReference = 6E57993E2A745DD600E29790 /* fika_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E57991C2A745DD400E29790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6E5799232A745DD400E29790 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					6E5799332A745DD600E29790 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6E5799232A745DD400E29790;
+					};
+					6E57993D2A745DD600E29790 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 6E5799232A745DD400E29790;
+					};
+				};
+			};
+			buildConfigurationList = 6E57991F2A745DD400E29790 /* Build configuration list for PBXProject "fika_iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E57991B2A745DD400E29790;
+			productRefGroup = 6E5799252A745DD400E29790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5799232A745DD400E29790 /* fika_iOS */,
+				6E5799332A745DD600E29790 /* fika_iOSTests */,
+				6E57993D2A745DD600E29790 /* fika_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5799222A745DD400E29790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E57992F2A745DD500E29790 /* Preview Assets.xcassets in Resources */,
+				6E57992C2A745DD500E29790 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5799322A745DD600E29790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57993C2A745DD600E29790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5799202A745DD400E29790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E57995D2A7477F800E29790 /* BannerView.swift in Sources */,
+				6E5799592A745FBF00E29790 /* LoginViewViewModel.swift in Sources */,
+				6E57995B2A74778A00E29790 /* HeaderView.swift in Sources */,
+				6E57992A2A745DD400E29790 /* MainView.swift in Sources */,
+				6E5799282A745DD400E29790 /* fika_iOSApp.swift in Sources */,
+				6E5799572A745FB200E29790 /* LoginView.swift in Sources */,
+				6E5799552A745FA100E29790 /* MainViewViewModel.swift in Sources */,
+				6E57995F2A74926300E29790 /* MatchScheduleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5799302A745DD600E29790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5799392A745DD600E29790 /* fika_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E57993A2A745DD600E29790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5799452A745DD600E29790 /* fika_iOSUITestsLaunchTests.swift in Sources */,
+				6E5799432A745DD600E29790 /* fika_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E5799362A745DD600E29790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5799232A745DD400E29790 /* fika_iOS */;
+			targetProxy = 6E5799352A745DD600E29790 /* PBXContainerItemProxy */;
+		};
+		6E5799402A745DD600E29790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E5799232A745DD400E29790 /* fika_iOS */;
+			targetProxy = 6E57993F2A745DD600E29790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E5799462A745DD600E29790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E5799472A745DD600E29790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5799492A745DD600E29790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fika_iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoony.fika-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E57994A2A745DD600E29790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fika_iOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoony.fika-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E57994C2A745DD600E29790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoony.fika-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fika_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fika_iOS";
+			};
+			name = Debug;
+		};
+		6E57994D2A745DD600E29790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoony.fika-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fika_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fika_iOS";
+			};
+			name = Release;
+		};
+		6E57994F2A745DD600E29790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoony.fika-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fika_iOS;
+			};
+			name = Debug;
+		};
+		6E5799502A745DD600E29790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yoony.fika-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = fika_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E57991F2A745DD400E29790 /* Build configuration list for PBXProject "fika_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5799462A745DD600E29790 /* Debug */,
+				6E5799472A745DD600E29790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5799482A745DD600E29790 /* Build configuration list for PBXNativeTarget "fika_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5799492A745DD600E29790 /* Debug */,
+				6E57994A2A745DD600E29790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E57994B2A745DD600E29790 /* Build configuration list for PBXNativeTarget "fika_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E57994C2A745DD600E29790 /* Debug */,
+				6E57994D2A745DD600E29790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E57994E2A745DD600E29790 /* Build configuration list for PBXNativeTarget "fika_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E57994F2A745DD600E29790 /* Debug */,
+				6E5799502A745DD600E29790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E57991C2A745DD400E29790 /* Project object */;
+}
